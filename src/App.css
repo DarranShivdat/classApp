@@ -12,6 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* App.css */
+/* App.css */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the images vertically */
+  justify-content: center; /* This centers the images horizontally if there is extra space */
+}
+
+.resize-image {
+  width: 500px; /* Or any other width */
+  height: auto; /* This will maintain the aspect ratio */
+  object-fit: cover; /* This property will make sure to cover the area without stretching the image */
+  margin-bottom: 20px; /* Adds space between images */
+}
+
+
 
 .App-header {
   background-color: #282c34;
